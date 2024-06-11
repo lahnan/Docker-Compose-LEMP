@@ -15,10 +15,16 @@ Use Casa OS
 
 Nginx
 ![Docker-Compose](https://i.imgur.com/T5Maw43.png)
+
+
 Maria Db
 ![Docker-Compose](https://i.imgur.com/WuI9mwm.png)
+
+
 PhpMyAdmin
 ![Docker-Compose](https://i.imgur.com/Y4Me4YA.png)
+
+
 5. Click Submit
 ![Submit](https://i.imgur.com/S7lDM2b.png)
 6. Click Install 
