@@ -1,4 +1,5 @@
-version: '3.9'
+# Nginx
+---
 services:
   nginx:
     image: lscr.io/linuxserver/nginx:latest
@@ -13,7 +14,10 @@ services:
       - 80:80
       - 443:443
     restart: unless-stopped
-   mariadb:
+# MariaDb
+---
+services:
+  mariadb:
     image: lscr.io/linuxserver/mariadb:latest
     container_name: mariadb
     environment:
@@ -30,6 +34,9 @@ services:
     ports:
       - 3306:3306
     restart: unless-stopped
+# PhpMyAdmin
+---
+services:
   phpmyadmin:
     image: lscr.io/linuxserver/phpmyadmin:latest
     container_name: phpmyadmin
